@@ -5,7 +5,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=16000m
-#SBATCH --time=0:45:00
+#SBATCH --time=0:30:00
 #SBATCH --mail-user=ys59@rice.edu # TODO: Input your net id
 #SBATCH --mail-type=ALL
 #SBATCH --export=ALL
