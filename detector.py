@@ -93,11 +93,11 @@ import csv
 import pandas as pd
 
 data = pd.read_csv("../user-ct-test-collection-01.txt", sep="\t")
-urllist = data.ClickURL.dropna().unique()[0:30000]
+urllist = data.ClickURL.dropna().unique()
 
 k = 2
 l = 50
-r = 20
+r = 2 ** 20
 
 hash_table = HashTable(k, l, r)
 id_dict = {}
