@@ -93,7 +93,7 @@ import csv
 import pandas as pd
 
 data = pd.read_csv("../user-ct-test-collection-01.txt", sep="\t")
-urllist = data.ClickURL.dropna().unique()[0:1000]
+urllist = data.ClickURL.dropna().unique()[0:30000]
 
 k = 2
 l = 50
