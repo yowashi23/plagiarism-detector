@@ -102,6 +102,7 @@ r = 2 ** 20
 hash_table = HashTable(k, l, r)
 id_dict = {}
 for i in range(len(urllist)):
+    print(i)
     url = urllist[i]
     id_dict[url] = i
     hash_table.insert(hashcodes_gen(url, k * l), i)
