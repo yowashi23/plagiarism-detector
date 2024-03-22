@@ -1,2 +1,2 @@
 # plagiarism-detector
-Using MinHash for building a plagiarism detector and an approximate search engine
+Plagiarism detector and approximate search engine using MinHash
