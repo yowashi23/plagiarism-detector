@@ -1,2 +1,2 @@
-# plagiarism-detector
-Plagiarism detector and approximate search engine using MinHash
+# search-engine
+Search engine using MinHash
